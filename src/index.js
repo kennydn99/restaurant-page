@@ -1,1 +1,3 @@
-console.log('hello! webpack setup success!');
+import pageLoad from "./pageLoad.js";
+
+pageLoad();
