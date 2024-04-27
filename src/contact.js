@@ -5,7 +5,7 @@ const createContactPage = () => {
 
     const chefContact  = document.createElement('div');
     chefContact.classList.add('contact');
-    const headingContact = document.createElement('h5');
+    const headingContact = document.createElement('h3');
     headingContact.textContent = 'Pinky';
     const role = document.createElement('p');
     role.textContent = 'Chef';
@@ -21,7 +21,7 @@ const createContactPage = () => {
 
     const ManagerContact  = document.createElement('div');
     ManagerContact.classList.add('contact');
-    const headingContact2 = document.createElement('h5');
+    const headingContact2 = document.createElement('h3');
     headingContact2.textContent = 'Dinky';
     const role2 = document.createElement('p');
     role2.textContent = 'Manager';
@@ -37,7 +37,7 @@ const createContactPage = () => {
 
     const WaiterContact  = document.createElement('div');
     WaiterContact.classList.add('contact');
-    const headingContact3 = document.createElement('h5');
+    const headingContact3 = document.createElement('h3');
     headingContact3.textContent = 'Cookie';
     const role3 = document.createElement('p');
     role3.textContent = 'Waiter';
