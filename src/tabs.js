@@ -9,19 +9,28 @@ const makeTabsWork = () => {
     const contactButton = document.querySelector('.nav-contact');
 
     homeButton.addEventListener('click', () => {
-        alert('home clicked');
+        clearContent();
         createHomePage();
     });
 
     menuButton.addEventListener('click', () => {
-        alert('menu clicked');
+        clearContent();
         createMenuPage();
     });
 
     contactButton.addEventListener('click', () => {
-        alert('contact clicked');
+        clearContent();
         createContactPage();
     });
 }
+
+function clearContent() {
+    const content = document.querySelector('#content');
+    const pageContent = document.querySelector('.page-content');
+
+    if (pageContent) {
+        content.removeChild(pageContent);
+    }
+};
 
 export default makeTabsWork;
